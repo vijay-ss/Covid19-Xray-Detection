@@ -1,1 +1,1 @@
-# Covid19-Xray-Classification
+# Covid19 Xray Detection
