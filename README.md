@@ -30,3 +30,5 @@ The steps taken to pre-process the data can be viewed in this notebook: https://
 Throughout the project, a Convolutional Neural Network was built and trained using Keras and Tensorflow. The loss function used was binary crossentropy with an optimizer function of Adam.
 
 The average model accuracy was 96% with a precision of 97%, recall of 94% and f1-score of 96%:
+
+![](images/classification_report.png)
