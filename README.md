@@ -36,6 +36,7 @@ Throughout the project, a Convolutional Neural Network was built and trained usi
 The average model accuracy was 96% with a precision of 97%, recall of 94% and f1-score of 96%:
 
 ![](images/classification_report.png)
+
 ![](images/conf_matrix.png)
 
 From these fairly strong results, we must be weary of the small data set used. To further evaluate the model, transfer learning could be used in order to have a larger data set to work with. This would yield a stronger application to unseen test data.
