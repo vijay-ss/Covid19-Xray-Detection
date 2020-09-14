@@ -1,6 +1,8 @@
 # Covid19 Xray Detection
 
-Link to PowerPoint presentation: https://github.com/vijay-ss/Covid19-Xray-Detection/blob/master/Covid19_xray_Presentation.pdf
+Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHKDXDgKMDVe1YQ_XaSF8/view?usp=sharing
+
+Github Powerpoint PDF (same as above): https://github.com/vijay-ss/Covid19-Xray-Detection/blob/master/Covid19_xray_Presentation.pdf
 
 ## Introduction
 Within the last decade, deep learning techniques have become much more readily available for the masses to use for research, enterprise and personal use. In particular, applications to the medical field are becoming much more widespread as this technology can greatly assist with radiology.
