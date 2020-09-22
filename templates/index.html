@@ -1,0 +1,69 @@
+<html>
+
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <title>Covid-19 X-Ray Detection</title>
+
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+<body>
+
+    <div class="very_main">
+
+        <header>
+            <div class="top_frame">
+                <br>
+                <h1>A.I. based X-Ray Detection for Covid-19</h1>
+            </div>
+        </header>
+
+        {% extends "base.html" %} {% block content %}
+
+        <h2>Implemented using Keras and Tensorflow</h2>
+        <br>
+        <p class="description">
+            Upload X-Ray image and click Predict to get prediction.
+        </p>
+        <br>
+        <div>
+            <form id="upload-file" method="post" enctype="multipart/form-data">
+                <label for="imageUpload" class="upload-label">
+                    Select your X-Ray Image
+                </label>
+                <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+            </form>
+
+            <div class="image-section" style="display:none;">
+                <div class="img-preview">
+                    <div id="imagePreview">
+                    </div>
+                </div>
+                <div>
+                    <button type="button" class="upload-label" id="btn-predict">Predict</button>
+                </div>
+            </div>
+
+            <div class="loader" style="display:none;"></div>
+
+            <h3 id="result">
+                <span> </span>
+            </h3>
+
+        </div>
+
+        <p class="final_word">
+            Developed by <a href="https://www.linkedin.com/in/vijay-ss/" target="_blank">Vijay Saddi</a></br>
+            E-mail: vijay.saddi@outlook.com</br>
+            <a href="https://github.com/vijay-ss/Covid19-Xray-Detection" target="_blank">GitHub</a></br>
+        </p>
+
+    </div>
+
+    {% endblock %}
+
+</body>
+
+</html>
