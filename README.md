@@ -66,3 +66,33 @@ Another use case which can be taken from using this model, is to build an applic
 
 <a id='webapp'></a>
 # Web App
+
+Continuing from the previous section on creating the CNN model, I proceeded to developing a deployable web app, to demonstrate the potential use-case - which is to assist with medical imaging. Using this app, a user can upload an x-ray image and a prediction will be returned. In a medical setting, this can assist professionals when making key diagnoses.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+Libraries and software used to create the environment and deploy the app
+
+```
+* Python 3.7
+* Packages: Tansorflow, Keras, Numpy
+* Basic HTML/CSS/JS for configuring and styling the web app
+* Knowledge on setting up a virtual environment
+```
+
+### Tools
+```
+* An IDE such as VS Code
+* Python libraries listed in the requirements.txt file
+* A Heroku account for deployment
+```
+
+### Data sources
+
+The model created in the previous section will be input directly into the web app. These files include:
+- covid19_model_adv.josn
+- covid19_model_weights.h5
