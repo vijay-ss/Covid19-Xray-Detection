@@ -11,6 +11,8 @@ Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHK
   - [Data Source](#datasource)
   - [Results](#results)
 - [Web App](#webapp)
+  - [Prerequisites](#prereq)
+  - [App Deployment](#deployment)
 ***
 
 <a id='summary'></a>
@@ -67,6 +69,8 @@ Another use case which can be taken from using this model, is to build an applic
 <a id='webapp'></a>
 # Web App
 
+Link to deployed web app: https://covid19xraydetection.herokuapp.com/
+
 Continuing from the previous section on creating the CNN model, I proceeded to developing a deployable web app, to demonstrate the potential use-case - which is to assist with medical imaging. Using this app, a user can upload an x-ray image and a prediction will be returned. In a medical setting, this can assist professionals when making key diagnoses.
 
 ![](images/web_app.png)
@@ -75,6 +79,7 @@ Continuing from the previous section on creating the CNN model, I proceeded to d
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+<a id='prereq'></a>
 ### Prerequisites
 
 Libraries and software used to create the environment and deploy the app
@@ -86,15 +91,20 @@ Libraries and software used to create the environment and deploy the app
 * Knowledge on setting up a virtual environment
 ```
 
-### Tools
+#### Tools
 ```
 * An IDE such as VS Code
 * Python libraries listed in the requirements.txt file
 * A Heroku account for deployment
 ```
 
-### Data sources
+#### Input Files
 
 The model created in the previous section will be input directly into the web app. These files include:
 - covid19_model_adv.josn
 - covid19_model_weights.h5
+
+<a id='deployment'></a>
+## App Deployment
+
+Upon significant testing in the local virtual environment, the app was deployed online through Heroku. This is the free version, whereby the app goes to sleep after 30 minutes of inactivity - so loading times may vary depending upon when the app is opened.
