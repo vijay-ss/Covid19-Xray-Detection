@@ -89,6 +89,7 @@ Libraries and software used to create the environment and deploy the app
 * Packages: Tensorflow, Keras, Numpy
 * Flask for setting up a local web server
 * Basic HTML/CSS/JS for configuring and styling the web app
+  * Special thanks to vb100 for providing web app template https://github.com/vb100/Pneumonia-X-Rays-of-Human-Lungs-AI-project/tree/master/deploy/templates
 * Knowledge on setting up a virtual environment
 ```
 
