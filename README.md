@@ -87,6 +87,7 @@ Libraries and software used to create the environment and deploy the app
 ```
 * Python 3.7
 * Packages: Tansorflow, Keras, Numpy
+* Flask for setting up a local web server
 * Basic HTML/CSS/JS for configuring and styling the web app
 * Knowledge on setting up a virtual environment
 ```
@@ -106,5 +107,7 @@ The model created in the previous section will be input directly into the web ap
 
 <a id='deployment'></a>
 ## App Deployment
+
+The web app (app.py) was programmed using python code, combined with HTML/CSS/JS for attractive web styling. The underlying framework is Flask, which is robust enough for this particular use case.
 
 Upon significant testing in the local virtual environment, the app was deployed online through Heroku. This is the free version, whereby the app goes to sleep after 30 minutes of inactivity - so loading times may vary depending upon when the app is opened.
