@@ -10,6 +10,7 @@ Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHK
   - [Deep Learning Model](#deeplearningmodel)
   - [Data Source](#datasource)
   - [Results](#results)
+- [Web App](#webapp)
 ***
 
 <a id='summary'></a>
@@ -62,3 +63,6 @@ The average model accuracy was 96% with a precision of 97%, recall of 94% and f1
 From these fairly strong results, we must be weary of the small data set used. To further evaluate the model, transfer learning could be used in order to have a larger data set to work with. This would yield a stronger application to unseen test data.
 
 Another use case which can be taken from using this model, is to build an application which can take an xray image as input, and output the class which it belongs to (Covid or Normal).
+
+<a id='webapp'></a>
+# Web App
