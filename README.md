@@ -7,9 +7,9 @@ Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHK
 ## Table of Contents
 
 - [Project Summary](#summary)
-- [Deep Learning Model](#deeplearningmodel)
-- [Data Source](#datasource)
-- [Results](#results)
+  - [Deep Learning Model](#deeplearningmodel)
+  - [Data Source](#datasource)
+  - [Results](#results)
 ***
 
 <a id='summary'></a>
