@@ -6,11 +6,17 @@ Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHK
 
 ## Table of Contents
 
+- [Project Summary](#summary)
 - [Deep Learning Model](#deeplearningmodel)
+- [Data Source](#datasource)
+- [Results](#results)
 ***
 
-# SUMMARY
+<a id='summary'></a>
+# Project Summary
 The goal of this project is to build an educational model which can predict if an x-ray image represents a healthy individual, or infected with Covid-19. With image data taken from both GitHub and Kaggle, a Convolutional Neural Newtork was trained using Tensorflow and Keras. The result was a model which can predict with **96% accuracy**,  a precision of 97%, recall of 94% and f1-score of 96. Based on the loss function results, the model does not overfit to the training data set. Some next steps include using transfer learning and Imagenet to increase the sample size and thus adding more statistical significance to the results.
+
+I then proceeded to developing a small scale web app, available via Heroku. Through this app, the user can upload an x-ray image and the model will return a prediction.
 
 
 <a id='deeplearningmodel'></a>
@@ -21,6 +27,7 @@ The unfortunate outbreak of Covid-19 has also let to a radical shift towards imp
 
 To re-iterate, this project is intended for educational purposes only, and not to be taken as a vetted model for Covid-19 assessments.
 
+<a id='datasource'></a>
 ## Data Source
 One of the main benefits of the open-source community is the ability to find readily available datasets for which to work with.
 
@@ -42,6 +49,7 @@ The final breakdown of images used for the model:
 
 The steps taken to pre-process the data can be viewed in this notebook: https://nbviewer.jupyter.org/github/vijay-ss/Covid19-Xray-Detection/blob/master/dataset_preprocessing.ipynb
 
+<a id='results'></a>
 ## Results
 Throughout the project, a Convolutional Neural Network was built and trained using Keras and Tensorflow. The loss function used was binary crossentropy with an optimizer function of Adam.
 
