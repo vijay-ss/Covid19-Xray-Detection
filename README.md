@@ -4,8 +4,10 @@ Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHK
 
 Github Powerpoint PDF (same as above): https://github.com/vijay-ss/Covid19-Xray-Detection/blob/master/Covid19_xray_Presentation.pdf
 
-## Table of contents
+## Table of Contents
+
 -- [Deep Learning Model](#deeplearningmodel)
+**
 
 # SUMMARY
 The goal of this project is to build an educational model which can predict if an x-ray image represents a healthy individual, or infected with Covid-19. With image data taken from both GitHub and Kaggle, a Convolutional Neural Newtork was trained using Tensorflow and Keras. The result was a model which can predict with **96% accuracy**,  a precision of 97%, recall of 94% and f1-score of 96. Based on the loss function results, the model does not overfit to the training data set. Some next steps include using transfer learning and Imagenet to increase the sample size and thus adding more statistical significance to the results.
