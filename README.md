@@ -7,7 +7,7 @@ Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHK
 ## Table of Contents
 
 - [Project Summary](#summary)
-  - [Deep Learning Model](#deeplearningmodel)
+  - [Model Introduction](#deeplearningmodel)
   - [Data Source](#datasource)
   - [Results](#results)
 - [Web App](#webapp)
