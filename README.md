@@ -6,7 +6,7 @@ Github Powerpoint PDF (same as above): https://github.com/vijay-ss/Covid19-Xray-
 
 ## Table of Contents
 
--- [Deep Learning Model](#deeplearningmodel)
+- [Deep Learning Model](#deeplearningmodel)
 **
 
 # SUMMARY
