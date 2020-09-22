@@ -1,8 +1,7 @@
 # Covid19 Xray Detection (Model and Deployed Web App)
 
+Link to deployed web app: https://covid19xraydetection.herokuapp.com/
 Link to PowerPoint presentation: https://drive.google.com/file/d/1BHSFPZff6zIVHKDXDgKMDVe1YQ_XaSF8/view?usp=sharing
-
-Github Powerpoint PDF (same as above): https://github.com/vijay-ss/Covid19-Xray-Detection/blob/master/Covid19_xray_Presentation.pdf
 
 ## Table of Contents
 
