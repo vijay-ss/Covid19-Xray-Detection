@@ -86,7 +86,7 @@ Libraries and software used to create the environment and deploy the app
 
 ```
 * Python 3.7
-* Packages: Tansorflow, Keras, Numpy
+* Packages: Tensorflow, Keras, Numpy
 * Flask for setting up a local web server
 * Basic HTML/CSS/JS for configuring and styling the web app
 * Knowledge on setting up a virtual environment
