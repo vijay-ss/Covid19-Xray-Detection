@@ -111,7 +111,3 @@ The model created in the previous section will be input directly into the web ap
 The web app (app.py) was programmed using python code, combined with HTML/CSS/JS for attractive web styling. The underlying framework is Flask, which is robust enough for this particular use case.
 
 Upon significant testing in the local virtual environment, the app was deployed online through Heroku. This is the free version, whereby the app goes to sleep after 30 minutes of inactivity - so loading times may vary depending upon when the app is opened.
-
-## Acknowledgements
-
-- Web app template: https://github.com/vb100/Pneumonia-X-Rays-of-Human-Lungs-AI-project/tree/master/deploy/templates
