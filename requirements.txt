@@ -1,7 +1,7 @@
 Flask==1.1.2
 Werkzeug==1.0.1
 gevent==20.6.2
-tensorflow==2.3.1
+tensorflow==2.5.1
 tensorflow-estimator==2.3.0
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
